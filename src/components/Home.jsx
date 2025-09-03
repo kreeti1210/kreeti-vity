@@ -1,21 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
 
-
-
-function App() {
- 
-
+const Home = () => {
   return (
     <>
       <div>
-        <div className="flex flex-row gap-4 items-center mb-10 justify-center align-center">
-          <nav className="flex flex-row justify-around items-center gap-4 list-none p-4 w-1/3 z-30 top-0">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-          </nav>
-        </div>
+      
         <div className="flex flex-row  items-center justify-center align-center">
           <div className="flex flex-col margin:auto items-center justify-center align-center">
             <h2 className="text-left w-1/2 text-center">
@@ -53,4 +42,4 @@ function App() {
   );
 }
 
-export default App
+export default Home
