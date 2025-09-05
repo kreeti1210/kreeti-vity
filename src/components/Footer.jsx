@@ -48,23 +48,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
-                Legal
-              </h2>
-              <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
-                  <Link to="/github" className="hover:underline">
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/github" className="hover:underline">
-                    Terms &amp; Conditions
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
