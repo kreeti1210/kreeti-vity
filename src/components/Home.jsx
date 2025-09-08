@@ -27,7 +27,9 @@ const Home = () => {
           <h2 className="text-4xl font-semibold mb-6 ">Work Experience</h2>
           <div className="space-y-2">
             <p className="text-lg font-medium">Optum - United Health Group</p>
-            <p className="text-md text-gray-700">Associate Software Engineer | 2022–2025</p>
+            <p className="text-md text-gray-700">
+              Associate Software Engineer | 2022–2025
+            </p>
             <p className="text-lg leading-relaxed max-w-3xl">
               As a Software Engineer at Optum (Full-time, 2022–2025), I was
               responsible for designing, developing, and implementing software
@@ -36,11 +38,84 @@ const Home = () => {
               software products. I focused on problem-solving and contributed to
               projects that met specific organizational requirements.
             </p>
-            <button className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded-md">
+            <button className="btn bg-indigo-600 text-white py-2 px-4 rounded-md">
               View Experience
             </button>
           </div>
         </div>
+        <section>
+          <h2 className="text-4xl font-semibold mb-6 text-left mt-10">Projects</h2>
+          <div className="space-y-2 flex flex-row gap-10 ">
+            <div className="card bg-base-100 w-96 shadow-sm">
+              <figure>
+                <img
+                  src="./src/assets/Leetlabcover.jpg"
+                  alt="LeetLab Project"
+                />
+              </figure>
+              <div className="card-body space-between flex ">
+                <h2 className="card-title text-2xl font-semibold">LeetLab</h2>
+                <div className="card-actions align-end">
+                  <div className="badge badge-secondary badge-outline align-end ">
+                    Self Project
+                  </div>
+                  <div className="badge badge-secondary align-end">2025</div>
+                </div>
+
+                <p className="text-gray-300 text-wrap text-left">
+                  LeetLab is a full-stack coding platform inspired by LeetCode,
+                  enabling users to solve daily DSA problems with real-time code
+                  execution via the Judge0 API. Built using React, Node.js, and
+                  PostgreSQL, it features authentication, role management,
+                  playlists, and a responsive UI—developed during the ChaiCode
+                  Web Development Course.
+                </p>
+                <div className="card-actions justify-end">
+                  <button className="btn bg-indigo-600 text-white py-2 px-4 rounded-md">
+                    Visit
+                  </button>
+                  <button className="btn  btn-outline text-indigo-600 py-2 px-4 rounded-md">
+                    Github
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="card bg-base-100 w-96 shadow-sm">
+              <figure>
+                <img
+                  src="./src/assets/Leetlabcover.jpg"
+                  alt="LeetLab Project"
+                />
+              </figure>
+              <div className="card-body space-between flex ">
+                <h2 className="card-title text-2xl font-semibold">LeetLab</h2>
+                <div className="card-actions align-end">
+                  <div className="badge badge-secondary badge-outline align-end ">
+                    Self Project
+                  </div>
+                  <div className="badge badge-secondary align-end">2025</div>
+                </div>
+
+                <p className="text-gray-300 text-wrap text-left">
+                  LeetLab is a full-stack coding platform inspired by LeetCode,
+                  enabling users to solve daily DSA problems with real-time code
+                  execution via the Judge0 API. Built using React, Node.js, and
+                  PostgreSQL, it features authentication, role management,
+                  playlists, and a responsive UI—developed during the ChaiCode
+                  Web Development Course.
+                </p>
+                <div className="card-actions justify-end">
+                  <button className="btn bg-indigo-600 text-white py-2 px-4 rounded-md">
+                    Visit
+                  </button>
+                  <button className="btn  btn-outline text-indigo-600 py-2 px-4 rounded-md">
+                    Github
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

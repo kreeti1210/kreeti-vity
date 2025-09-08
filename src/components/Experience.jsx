@@ -2,26 +2,28 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="px-6 py-10 max-w-4xl mx-auto text-gray-800">
-      <h2 className="text-3xl font-bold mb-6 text-indigo-600">Experience</h2>
+    <section className="px-6 py-10 max-w-4xl mx-auto ">
+      <h2 className="text-4xl font-bold mb-6 text-indigo-600">Experience</h2>
 
       <div className="space-y-8">
         <div>
-          <h3 className="text-xl font-semibold text-gray-900">
+          <h3 className="text-2xl font-semibold  mb-2">
             Optum – UnitedHealth Group
           </h3>
-          <p className="text-sm text-gray-600">
+          <p className="text-xl text-gray-600">
             Associate Software Engineer | 2022–2025
           </p>
-          <p className="mt-2 text-gray-700">
+          <p className="mt-2 text-white-700">
             At Optum, a Fortune 500 healthcare leader, I worked on backend
             systems that processed thousands of real-time transactions daily,
             handling sensitive patient data with high concurrency and
-            reliability. I maintained legacy Java infrastructure and debugged
-            production issues on RHEL servers, while also contributing to
-            React.js components that interfaced with these systems.
-            Collaborating across time zones with the US onshore team, I ensured
-            smooth handoffs and consistent delivery in a global setup.
+            reliability for Priority 1 applications - ACIS (Automated Case
+            Implementaion System) and CIX. As a Java full stack developer, I
+            maintained ACIS legacy Java infrastructure and debugged production
+            issues on RHEL servers, while also contributing to React.js
+            components that interfaced with these systems. Collaborating across
+            time zones with the US onshore team, I ensured smooth handoffs and
+            consistent delivery in a global setup.
           </p>
         </div>
 

@@ -3,11 +3,12 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="shadow sticky z-50 top-0 font-sans">
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-3">
+    <header className="shadow sticky z-0 top-0 font-sans ">
+ <nav className="bg-ghost border-gray-50 px-4 lg:px-6 py-3">
+
         <div className="flex justify-between items-center mx-auto max-w-screen-xl">
           <div className="w-full">
-            <ul className="flex flex-row justify-center gap-10 mt-2 lg:mt-0 text-gray-700 text-lg font-medium">
+            <ul className="flex flex-row justify-center gap-10 mt-2 lg:mt-0 text-gray-500 text-lg ">
               <li>
                 <NavLink
                   to="/"
