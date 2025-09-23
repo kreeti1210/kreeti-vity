@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="px-6 py-10 max-w-4xl mx-auto mb-15">
+    <section className="px-6 py-10 max-w-5xl mx-auto text-justify bg-black ">
       <h2 className="text-4xl font-bold mb-6 text-indigo-600">Experience</h2>
 
       <div className="space-y-8">
@@ -65,10 +65,10 @@ const Experience = () => {
         </div>
 
         <div>
-          <h3 className="text-2xl font-semibold mb-2 mt-5">
+          <h3 className="text-2xl font-semibold mb-2 mt-12">
             ACIS (Automated Case Implementation System)
           </h3>
-          <p className="text- text-gray-400">Optum | Sept 2022 - April 2025</p>
+          <p className="text- text-gray-400 mb-4">Optum | Sept 2022 - April 2025</p>
           <p className="mt-2 text-gray-300">
             ACIS (Automated Case Implementation System) is a priority one
             application that offers various plans, coverage and medical benefits
@@ -79,7 +79,7 @@ const Experience = () => {
             the customer as required following all the safety measures. My
             onshore team including myself developed, handled and maintained the
             efficient performance of both legacy and modernized web application.
-            <br /> Besides, I led the MQ migration to version 9, ensuring
+            <br /><br /> Besides, I led the MQ migration to version 9, ensuring
             successful testing across environments, and supported the RHEL 7 to
             RHEL 8 server migration, reducing infrastructure costs. I
             proactively created ACIS test customers to improve data accuracy and

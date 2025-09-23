@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
     <div>
-      <section className="px-6 py-10 max-w-4xl mx-auto ">
+      <section className="px-6 py-10 max-w-5xl mx-auto bg-black ">
         <h2 className="text-4xl font-bold mb-6 text-indigo-600">Education</h2>
 
         <div className="space-y-8">
@@ -42,7 +43,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="px-6 py-10 max-w-4xl mx-auto mb-15">
+      <section className="px-6 py-10 max-w-5xl mx-auto  bg-black">
         <h2 className="text-4xl font-bold mb-6 text-indigo-600">
           Certifications
         </h2>
@@ -57,9 +58,11 @@ const About = () => {
                 Hitesh Choudhary | Piyush Garg | 2025
               </p>
             </div>
-            <button className="btn btn-ghost outline mt-2 text-xs text-white px-4 rounded-2xl">
-              View Cetificate
-            </button>
+            <Link to="https://courses.chaicode.com/learn/certificate/11488026-21429">
+              <button className="btn btn-ghost outline mt-2 text-xs text-white px-4 rounded-2xl">
+                View Cetificate
+              </button>
+            </Link>
           </div>
 
           <div className="flex flex-row justify-between">
@@ -69,9 +72,11 @@ const About = () => {
               </h3>
               <p className="text-xl text-gray-400 ">Infosys | 2021</p>
             </div>
-            <button className="btn btn-ghost justify-end outline mt-2 text-white px-4  text-xs rounded-2xl">
-              View Cetificate
-            </button>
+            <Link to="https://infytq.onwingspan.com/public-assets/Infosys-Certified-Software-Programmer_2022/a79fbb6e-12c0-4621-a662-e7c14fd604a8.pdf">
+              <button className="btn btn-ghost justify-end outline mt-2 text-white px-4  text-xs rounded-2xl">
+                View Cetificate
+              </button>
+            </Link>
           </div>
           <div className="flex flex-row justify-between">
             <div>
@@ -80,9 +85,11 @@ const About = () => {
               </h3>
               <p className="text-xl text-gray-400">Coursera | 2020</p>
             </div>
-            <button className="btn btn-ghost outline mt-2 text-xs text-white px-4  rounded-2xl">
-              View Cetificate
-            </button>
+            <Link to="https://coursera.org/verify/GPC83XSZZ6X9">
+              <button className="btn btn-ghost outline mt-2 text-xs text-white px-4  rounded-2xl">
+                View Cetificate
+              </button>
+            </Link>
           </div>
         </div>
       </section>

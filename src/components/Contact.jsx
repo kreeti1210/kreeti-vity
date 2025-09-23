@@ -3,8 +3,8 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-      <section className="px-6 py-10 max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold mb-6 text-indigo-600">
+      <section className="px-6 py-10 max-w-5xl mx-auto bg-black">
+        <h2 className="text-4xl font-bold mb-6 text-white">
           Let's Connect
         </h2>
 
@@ -35,7 +35,7 @@ const Contact = () => {
               name="name"
               required
               className="input input-bordered w-full bg-gray-800 text-white"
-              placeholder="John Doe"
+              placeholder="Your good name!"
             />
           </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
               required
               className="textarea textarea-bordered w-full bg-gray-800 text-white"
               rows="5"
-              placeholder="Say hello..."
+             
             ></textarea>
           </div>
 
@@ -57,7 +57,7 @@ const Contact = () => {
           </button>
         </form>
       </section>
-      <section className="px-6 py-10 max-w-4xl mx-auto mb-15">
+      <section className="px-6 py-10 max-w-5xl mx-auto">
         <div >
           <h2 className="text-3xl font-bold mb-4 text-indigo-500">
             Find me elsewhere
@@ -70,7 +70,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/kreeti-sharma-353072195/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-info"
+              className="btn btn-outline btn-primary"
             >
               LinkedIn
             </a>
