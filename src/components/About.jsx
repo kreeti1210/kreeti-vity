@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="bg-black w-full ">
-      <section className="px-15 py-10 max-w-5xl text-justify mx-auto bg-base-300  ">
+      <section className="px-12 py-10 max-w-5xl text-justify mx-auto bg-base-300  ">
         <h2 className="text-3xl  mb-6 text-center text-white">Education</h2>
 
-        <div className="space-y-12 px-4 py-6 text-justify rounded">
+        <div className="space-y-12 px-6 py-5 text-justify rounded bg-base-100">
           <div>
             <h3 className="text-2xl font-semibold ">
               B. Tech in Information Technology
@@ -15,7 +15,7 @@ const About = () => {
             <p className=" text-gray-400">
               KIET Group of Institutions | 2018–2022
             </p>
-            <p className="mt-2 text-sm text-white-700">
+            <p className="mt-2 text-sm text-gray-300 ">
               Bonafied Graduated from KIET Group of Institutions affiliated to
               Dr. A. P. J. Abdul Kalam Technical University, Lucknow with a
               Bachelor of Technology in Information Technology. I have a strong
@@ -28,7 +28,7 @@ const About = () => {
               Intermediate in Maths and Computer
             </h3>
             <p className=" text-gray-400">Little Flower School | ISC 2017</p>
-            <p className="text-sm mt-2  text-white-700">
+            <p className="text-sm mt-2  text-gray-300">
               Completed my Intermediate education from Little Flower School,
               affiliated to ISC Board, New Delhi. with 93% in Maths and Computer
               Science ISC board Examination.
@@ -37,7 +37,7 @@ const About = () => {
           <div>
             <h3 className="text-2xl mt-8 font-semibold ">High School</h3>
             <p className=" text-gray-400">Little Flower School | ICSE 2016</p>
-            <p className="text-sm mt-2  text-white-700">
+            <p className="text-sm mt-2  text-gray-300">
               Completed my High School education from Little Flower School,
               affiliated to ICSE Board, New Delhi. with 92.83% in CISCE board
               Examination.
@@ -45,8 +45,8 @@ const About = () => {
           </div>
         </div>
 
-        <section className=" py-10 mt-15 outline mb-10 mx-auto px-8 rounded-xl bg-base-100 ">
-          <h2 className="text-3xl text-center  mb-8 text-white">
+        <section className=" py-8 mt-12 outline mb-10 mx-auto px-8 rounded-xl bg-base-100 ">
+          <h2 className="text-3xl text-center  mb-6 text-white">
             Certifications
           </h2>
 

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="shadow-md sticky top-0 z-50 bg-base-500 font-sans">
+    <header className="sticky top-0 z-100 bg-base-500 bg-opacity-0 backdrop-filter backdrop-blur-md font-sans">
       <nav className="px-4 lg:px-6 py-3">
         <div className="flex justify-center items-center mx-auto max-w-screen-xl">
           <ul className="flex flex-row gap-10 text-gray-450 text-lg font-medium">

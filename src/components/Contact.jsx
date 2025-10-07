@@ -1,17 +1,20 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [messageArea, setMessageArea] = useState("");
+  const [name, setName] = useState("");
   return (
     <div className="bg-black">
-      <section className="bg-base-300 px-10 py-15 max-w-5xl mx-auto">
+      <section className="bg-base-300 px-12 py-10 max-w-5xl mx-auto">
         <h2 className="text-3xl  mb-6 text-center rounded text-white">
           Let's Connect!
         </h2>
-        <div className="px-10 py-4 rounded">
-          <p className="text text-gray-400 mb-8">
-            I prefer to keep my inbox private—but if you’ve got something to
-            say, I’d love to hear it. Drop me a message below and it’ll land
-            directly in my email. No spam, no noise—just real talk.
+        <div className="px-6 py-4 rounded bg-base-100">
+          <p className="text text-gray-200 mb-8">
+            My inbox is a quiet little corner—just how I like it. But if you’ve
+            got something thoughtful to share, I’d truly love to hear it. Send
+            me a note below and it’ll go straight to my email. No clutter, no
+            fuss—just honest connection.
           </p>
 
           <form
@@ -19,12 +22,6 @@ const Contact = () => {
             method="POST"
             className="space-y-6"
           >
-            <input type="hidden" name="_captcha" value="false" />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://yourwebsite.com/thank-you"
-            />
 
             <div>
               <label className="block text-white mb-2 text-lg font-medium">
@@ -32,7 +29,8 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                name="name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
                 required
                 className="input input-bordered w-full bg-gray-800 text-white"
                 placeholder="Your good name!"
@@ -44,19 +42,31 @@ const Contact = () => {
                 Your Message
               </label>
               <textarea
-                name="message"
+                value={messageArea}
+                onChange={(e) => setMessageArea(e.target.value)}
                 required
                 className="textarea textarea-bordered w-full bg-gray-800 text-white"
                 rows="5"
               ></textarea>
             </div>
 
-            <button type="submit" className="btn btn-primary">
-              Send Message
-            </button>
+            <div className="flex justify-end gap-4">
+              <button
+                className="btn btn-outline bd-primary"
+                onClick={() => {
+                  setMessageArea("");
+                  setName(" ");
+                }}
+              >
+                Clear
+              </button>
+              <button type="submit" className="btn  bg-white text-black">
+                Send Message
+              </button>
+            </div>
           </form>
         </div>
-        <section className="py-10 px-10 max-w-5xl mx-auto mt-15">
+        <section className="max-w-5xl mx-auto mt-15">
           <div className=" px-10 py-8 text-center outline rounded bg-base-100">
             <h2 className="text-3xl  mb-2 text-white-500">Find me elsewhere</h2>
             <p className="text-sm text-gray-400 mb-4">
@@ -93,6 +103,6 @@ const Contact = () => {
       </section>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

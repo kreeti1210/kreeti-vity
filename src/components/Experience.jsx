@@ -3,13 +3,13 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="bg-black w-full ">
-      <section className="px-15 py-10 max-w-5xl mx-auto text-justify bg-base-300 ">
+      <section className="px-13 py-10 max-w-5xl mx-auto text-justify bg-base-300 ">
         <h2 className="text-3xl text-center font mb-6 text-white">
           Experience
         </h2>
 
-        <div className="space-y-8 ">
-          <div className="px-6 py-6 rounded">
+        <div className="space-y-8  ">
+          <div className="px-6 py-6 rounded bg-base-100">
             <h3 className="text-2xl font-semibold  mb-1">
               Optum – UnitedHealth Group
             </h3>
@@ -30,7 +30,7 @@ const Experience = () => {
             </p>
           </div>
 
-          <div className="px-10 py-8 outline bg-base-100 rounded-xl mt-10 mb-10">
+          <div className="px-10 py-7 outline bg-base-100 rounded-xl mt-10 mb-10">
             <h2 className="text-3xl   text-center mb-6">Projects</h2>
             <h3 className="text-2xl font-semibold mb-1">
               ACIS CDS Macro Import
