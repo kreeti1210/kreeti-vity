@@ -18,9 +18,9 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="../../public/Kreeti.jpg"
-              className="  max-w-60 rounded-full drop-shadow-2xl object-cover  "
-              alt="Profile Photo"
+              src="/Kreeti.jpg"
+              alt="Profile"
+              className="max-w-60 rounded-full drop-shadow-2xl object-cover"
             />
           </div>
         </div>
@@ -59,7 +59,7 @@ const Home = () => {
             <div className="card bg-base-100 w-1/3 shadow-sm">
               <figure>
                 <img
-                  src="../../public/Leetlabcover.jpg"
+                  src="/Leetlabcover.jpg"
                   alt="LeetLab Project"
                 />
               </figure>
@@ -92,7 +92,7 @@ const Home = () => {
 
             <div className="card bg-base-100 w-1/3 shadow-sm">
               <figure>
-                <img src="../../public/DarkMode.png" alt="AuthProject" />
+                <img src="/DarkMode.png" alt="AuthProject" />
               </figure>
               <div className="card-body space-between flex ">
                 <h2 className="card-title text-2xl font-semibold">
@@ -123,7 +123,7 @@ const Home = () => {
             </div>
             <div className="card bg-base-100 w-1/3 shadow-sm">
               <figure>
-                <img src="../../public/AuthFullCover.png" alt="AuthProject" />
+                <img src="/AuthFullCover.png" alt="AuthProject" />
               </figure>
               <div className="card-body space-between  ">
                 <h2 className="card-title text-2xl font-semibold">
