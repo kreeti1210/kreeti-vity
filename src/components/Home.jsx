@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
+
 const Home = () => {
   return (
     <div className=" bg-black">
@@ -17,16 +18,14 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="./src/assets/kreeti.jpg"
+              src="../../public/Kreeti.jpg"
               className="  max-w-60 rounded-full drop-shadow-2xl object-cover  "
               alt="Profile Photo"
             />
           </div>
         </div>
 
-
         <div className="mt-10 text-justify py-10 px-10  mb-4 rounded-lg outline  shadow-md bg-base-200">
-        
           <div className="space-y-3">
             <p className="text-2xl text-center font-medium ">
               Optum - United Health Group
@@ -60,7 +59,7 @@ const Home = () => {
             <div className="card bg-base-100 w-1/3 shadow-sm">
               <figure>
                 <img
-                  src="./src/assets/Leetlabcover.jpg"
+                  src="../../public/Leetlabcover.jpg"
                   alt="LeetLab Project"
                 />
               </figure>
@@ -93,7 +92,7 @@ const Home = () => {
 
             <div className="card bg-base-100 w-1/3 shadow-sm">
               <figure>
-                <img src="./src/assets/DarkMode.png" alt="AuthProject" />
+                <img src="../../public/DarkMode.png" alt="AuthProject" />
               </figure>
               <div className="card-body space-between flex ">
                 <h2 className="card-title text-2xl font-semibold">
@@ -124,7 +123,7 @@ const Home = () => {
             </div>
             <div className="card bg-base-100 w-1/3 shadow-sm">
               <figure>
-                <img src="./src/assets/AuthFullCover.png" alt="AuthProject" />
+                <img src="../../public/AuthFullCover.png" alt="AuthProject" />
               </figure>
               <div className="card-body space-between  ">
                 <h2 className="card-title text-2xl font-semibold">
@@ -247,7 +246,9 @@ const Home = () => {
         <section>
           <div className="w-full  text-white text-left mt-10 mb-8 ">
             <div className=" bg-opacity-20   bg-base-100 p-6 rounded-lg ">
-              <h4 className="text-3xl font-semibold mb-2">Connect through other platforms?</h4>
+              <h4 className="text-3xl font-semibold mb-2">
+                Connect through other platforms?
+              </h4>
               <p className="mb-1 px-1 text-sm text-gray-400">
                 Here are some other ways to get in touch with me
               </p>
